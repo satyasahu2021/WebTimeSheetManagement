@@ -18,3 +18,9 @@ D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Models\bin\Debug\WebTi
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.dll
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.pdb
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.csprojResolveAssemblyReference.cache
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\bin\Debug\WebTimeSheetManagement.Models.dll
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\bin\Debug\WebTimeSheetManagement.Models.pdb
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.csproj.AssemblyReference.cache
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.csproj.CoreCompileInputs.cache
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.dll
+C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Debug\WebTimeSheetManagement.Models.pdb

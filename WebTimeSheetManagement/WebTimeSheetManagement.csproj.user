@@ -10,8 +10,15 @@
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_LayoutUser.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
-    <NameOfLastUsedPublishProfile>Sai</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\WebTimeSheetManagement\WebTimeSheetManagement\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
     <WebStackScaffolding_DbContextTypeFullName>WebTimeSheetManagement.Concrete.DatabaseContext</WebStackScaffolding_DbContextTypeFullName>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

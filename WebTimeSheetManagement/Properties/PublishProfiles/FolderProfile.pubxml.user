@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WebTimeSheetManagement\WebTimeSheetManagement\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2022-11-08T07:44:27.8187719Z;False|2022-11-08T13:12:25.3656099+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="App_Readme/Elmah.SqlServer.sql">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="App_Readme/Elmah.SqlServer.txt">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="bin/CaptchaMvc.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/CaptchaMvc.pdb">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/Elmah.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/Elmah.Mvc.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Linq.Dynamic.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/07/2022 09:52:54</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>11/07/2022 09:52:55</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Concrete.dll">
+      <publishTime>11/08/2022 18:15:10</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Concrete.dll.config">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Concrete.pdb">
+      <publishTime>11/08/2022 18:15:10</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.dll">
+      <publishTime>11/08/2022 18:15:26</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Interface.dll">
+      <publishTime>11/08/2022 18:15:07</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Interface.pdb">
+      <publishTime>11/08/2022 18:15:07</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Models.dll">
+      <publishTime>11/08/2022 13:11:56</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.Models.pdb">
+      <publishTime>11/08/2022 13:11:56</publishTime>
+    </File>
+    <File Include="bin/WebTimeSheetManagement.pdb">
+      <publishTime>11/08/2022 18:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/Login.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/toastr.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/toastr.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/toastr.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/toastr.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Content/Validation.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/07/2022 09:52:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/07/2022 09:52:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/07/2022 09:52:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/07/2022 09:52:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/07/2022 09:52:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/07/2022 09:52:53</publishTime>
+    </File>
+    <File Include="Scripts/ajaxjquery.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/dataTablesScripts/dataTables.bootstrap.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/dataTablesScripts/dataTables.bootstrap4.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/dataTablesScripts/jquery.dataTables.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/dataTablesScripts/responsive.bootstrap.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimepicker/images/ui-icons_444444_256x240.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimepicker/jquery-1.12.4.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimepicker/jqueryui.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimepicker/jqueryui.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/build/jquery.datetimepicker.full.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/build/jquery.datetimepicker.full.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/build/jquery.datetimepicker.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/build/jquery.datetimepicker.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/jquery.datetimepicker.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/datetimexdsoft/jquery.datetimepicker.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.documentvalidate.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.expense.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.2.3.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.2.3.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.timecard.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.timesheetprocess.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.total.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/toastr.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/data/flot-data.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/data/morris-data.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/dist/css/sb-admin-2.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/dist/css/sb-admin-2.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/dist/js/sb-admin-2.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/dist/js/sb-admin-2.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/js/sb-admin-2.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/less/mixins.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/less/sb-admin-2.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/less/variables.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap-social/bootstrap-social.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap-social/bootstrap-social.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap-social/bootstrap-social.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-plugins/dataTables.bootstrap.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-plugins/dataTables.bootstrap.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-plugins/dataTables.bootstrap.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-plugins/index.html">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-responsive/dataTables.responsive.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-responsive/dataTables.responsive.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables-responsive/dataTables.responsive.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.bootstrap.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.bootstrap.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.bootstrap4.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.bootstrap4.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.foundation.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.foundation.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.jqueryui.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.jqueryui.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.material.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.material.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.semanticui.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.semanticui.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.uikit.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/dataTables.uikit.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/jquery.dataTables.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/jquery.dataTables.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/css/jquery.dataTables_themeroller.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/favicon.ico">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/Sorting icons.psd">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/sort_asc.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/sort_asc_disabled.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/sort_both.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/sort_desc.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/images/sort_desc_disabled.png">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.bootstrap.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.bootstrap.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.bootstrap4.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.bootstrap4.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.foundation.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.foundation.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.jqueryui.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.jqueryui.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.material.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.material.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.semanticui.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.semanticui.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.uikit.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/dataTables.uikit.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/jquery.dataTables.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/jquery.dataTables.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/datatables/js/jquery.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot-tooltip/jquery.flot.tooltip.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot-tooltip/jquery.flot.tooltip.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot-tooltip/jquery.flot.tooltip.source.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/excanvas.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/excanvas.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.colorhelpers.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.canvas.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.categories.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.crosshair.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.errorbars.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.fillbetween.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.image.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.navigate.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.pie.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.resize.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.selection.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.stack.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.symbol.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.threshold.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.flot.time.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/flot/jquery.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/css/font-awesome.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/css/font-awesome.css.map">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/animated.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/bordered-pulled.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/core.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/extras.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/fixed-width.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/font-awesome.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/icons.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/larger.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/list.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/mixins.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/path.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/rotated-flipped.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/screen-reader.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/spinning.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/stacked.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/less/variables.less">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/font-awesome.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_animated.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_core.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_extras.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_fixed-width.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_icons.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_larger.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_list.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_mixins.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_path.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_screen-reader.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_spinning.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_stacked.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/font-awesome/scss/_variables.scss">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/jquery/jquery.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/jquery/jquery.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/metisMenu/metisMenu.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/metisMenu/metisMenu.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/metisMenu/metisMenu.min.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/metisMenu/metisMenu.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/morrisjs/morris.css">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/morrisjs/morris.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/morrisjs/morris.min.js">
+      <publishTime>11/07/2022 09:52:50</publishTime>
+    </File>
+    <File Include="Template/vendor/raphael/raphael.js">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Template/vendor/raphael/raphael.min.js">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AddNotification/Add.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AddNotification/AllNotification.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Admin/Dashboard.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllExpense/ApprovedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllExpense/Expense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllExpense/RejectedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllExpense/SubmittedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllExpense/_Details.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllRoles/Roles.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllTimeSheet/ApprovedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllTimeSheet/Details.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllTimeSheet/RejectedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllTimeSheet/SubmittedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllTimeSheet/TimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllUsers/Admin.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/AllUsers/Users.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/DemoAssign/Index.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Expense/Add.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ExpenseExport/Report.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ExpenseMasterExport/Report.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Login/Login.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Project/Add.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Project/Index.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Registration/Registration.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ResetPassword/Index.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutLogin.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutSuperAdmin.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutUser.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_UserDetails.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllExpense/ApprovedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllExpense/Details.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllExpense/Expense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllExpense/RejectedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllExpense/SubmittedExpense.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllTimeSheet/ApprovedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllTimeSheet/Details.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllTimeSheet/RejectedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllTimeSheet/SubmittedTimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/ShowAllTimeSheet/TimeSheet.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/SuperAdmin/AssignRoles.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/SuperAdmin/CreateAdmin.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/SuperAdmin/Dashboard.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Team/Members.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/TimeSheet/Add.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/TimeSheetExport/Report.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/TimeSheetExport/TimeSheetReport.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/TimeSheetMasterExport/Report.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/User/Dashboard.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/UserDashboard/Dashboard.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/UserProfile/ChangePassword.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/07/2022 09:52:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2022 13:12:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

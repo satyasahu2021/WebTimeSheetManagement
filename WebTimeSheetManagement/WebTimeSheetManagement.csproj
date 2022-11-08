@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -292,7 +293,6 @@
     </Content>
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
-    <None Include="Properties\PublishProfiles\Sai.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\dataTablesScripts\dataTables.bootstrap.min.css" />
     <Content Include="Scripts\dataTablesScripts\dataTables.bootstrap4.min.js" />
@@ -410,9 +410,6 @@
     <Content Include="Template\vendor\flot\jquery.js" />
     <Content Include="Template\vendor\font-awesome\css\font-awesome.css" />
     <Content Include="Template\vendor\font-awesome\css\font-awesome.min.css" />
-    <Content Include="Template\vendor\jquery-easing\jquery.easing.compatibility.js" />
-    <Content Include="Template\vendor\jquery-easing\jquery.easing.js" />
-    <Content Include="Template\vendor\jquery-easing\jquery.easing.min.js" />
     <Content Include="Template\vendor\jquery\jquery.js" />
     <Content Include="Template\vendor\jquery\jquery.min.js" />
     <Content Include="Template\vendor\metisMenu\metisMenu.css" />
@@ -546,6 +543,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="EntityModels\" />
     <Folder Include="ErrorLog\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\TimeSheetMaster\" />
   </ItemGroup>
   <ItemGroup>
