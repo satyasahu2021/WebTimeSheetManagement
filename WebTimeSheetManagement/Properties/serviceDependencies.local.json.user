@@ -2,7 +2,11 @@
   "dependencies": {
     "secrets1": {
       "restored": true,
-      "restoreTime": "2022-11-08T12:05:45.9731207Z"
+      "restoreTime": "2022-11-09T03:00:02.5080566Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2022-11-09T06:45:56.1866439Z"
     }
   },
   "parameters": {
@@ -13,6 +17,11 @@
     },
     "secrets1.subscriptionId": {
       "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "eba63fd0-da8c-450a-89e2-302228f2f08d"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
       "Type": "subscription",
       "Value": "eba63fd0-da8c-450a-89e2-302228f2f08d"
     }

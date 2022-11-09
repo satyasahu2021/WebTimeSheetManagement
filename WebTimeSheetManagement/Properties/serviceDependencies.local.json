@@ -5,6 +5,9 @@
       "type": "secrets.keyVault",
       "connectionId": "VaultUri",
       "secretStore": null
+    },
+    "appInsights1": {
+      "type": "appInsights.sdk"
     }
   }
 }
