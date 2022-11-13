@@ -21,3 +21,12 @@ C:\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSh
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Models.dll
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Models.pdb
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.csproj.CopyComplete
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Interface.dll
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Interface.pdb
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Models.dll
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Release\WebTimeSheetManagement.Models.pdb
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.csproj.AssemblyReference.cache
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.csproj.CoreCompileInputs.cache
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.csproj.CopyComplete
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.dll
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Release\WebTimeSheetManagement.Interface.pdb

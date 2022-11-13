@@ -8,11 +8,13 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using WebTimeSheetManagement.Filters;
+using Azure.Security.KeyVault.Secrets;
 
 namespace WebTimeSheetManagement
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        SecretClient secretclient = new SecretClient(new Uri("https://DevEnv19DataKeyVault.vault.azure.net"),new Azure.Identity.DefaultAzureCredential());
         protected void Application_BeginRequest()
         {
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
@@ -20,14 +22,17 @@ namespace WebTimeSheetManagement
             Response.Cache.SetNoStore();
         }
 
-        protected void Application_Start()
-        {
+        protected void Application_Start()        {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             GlobalFilters.Filters.Add(new UserAuditFilter());
-            SqlDependency.Start(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString());
+            // var secret = ConfigurationManager.AppSettings["TimesheetDBEntities"];
+            var secret1 = secretclient.GetSecret("TimesheetDBEntities").Value.Value;
+            SqlDependency.Start(secretclient.GetSecret("TimesheetDBEntities").Value.Value);
+
+           //SqlDependency.Start(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString());
         }
 
 

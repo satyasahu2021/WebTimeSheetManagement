@@ -14,3 +14,9 @@ C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheet
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.csproj.CoreCompileInputs.cache
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.dll
 C:\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.pdb
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\bin\Release\WebTimeSheetManagement.Models.dll
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\bin\Release\WebTimeSheetManagement.Models.pdb
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.csproj.AssemblyReference.cache
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.csproj.CoreCompileInputs.cache
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.dll
+C:\POC\source\repos1\WebTimeSheetManagement\WebTimeSheetManagement.Models\obj\Release\WebTimeSheetManagement.Models.pdb
