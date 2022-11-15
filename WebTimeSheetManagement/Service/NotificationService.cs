@@ -9,12 +9,14 @@ using System.Web.Script.Serialization;
 using WebTimeSheetManagement.Hubs;
 using WebTimeSheetManagement.Models;
 
+
 namespace WebTimeSheetManagement.Service
 {
     public class NotificationService
     {
 
-        static readonly string connString = ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString();
+        
+        static readonly string connString = GlobalConnectionString.connectionString;
         internal static SqlCommand command = null;
         internal static SqlDependency dependency = null;
 

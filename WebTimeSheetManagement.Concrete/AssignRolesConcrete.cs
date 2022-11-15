@@ -17,7 +17,7 @@ namespace WebTimeSheetManagement.Concrete
         public List<AdminModel> ListofAdmins()
         {
 
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -36,7 +36,7 @@ namespace WebTimeSheetManagement.Concrete
         public List<UserModel> ListofUser()
         {
 
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -53,7 +53,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int UpdateAssigntoAdmin(string AssignToAdminID, string UserID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -74,6 +74,7 @@ namespace WebTimeSheetManagement.Concrete
         public IQueryable<UserModel> ShowallRoles(string sortColumn, string sortColumnDir, string Search)
         {
             var _context = new DatabaseContext();
+           
 
             var IQueryabletimesheet = (from AssignedRoles in _context.AssignedRoles
                                        join registration in _context.Registration on AssignedRoles.RegistrationID equals registration.RegistrationID
@@ -101,7 +102,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool RemovefromUserRole(string RegistrationID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -128,7 +129,7 @@ namespace WebTimeSheetManagement.Concrete
         public List<UserModel> GetListofUnAssignedUsers()
         {
 
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try

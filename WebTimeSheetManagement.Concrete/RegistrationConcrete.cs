@@ -88,7 +88,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     var param = new DynamicParameters();
                     param.Add("@RegistrationID", RegistrationID);

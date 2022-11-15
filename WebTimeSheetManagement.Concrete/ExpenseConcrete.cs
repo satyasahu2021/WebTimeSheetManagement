@@ -53,7 +53,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     var param = new DynamicParameters();
                     param.Add("@FromDate", FromDate);
@@ -147,7 +147,7 @@ namespace WebTimeSheetManagement.Concrete
 
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     var param = new DynamicParameters();
                     param.Add("@ExpenseID", ExpenseID);
@@ -262,7 +262,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool UpdateExpenseStatus(ExpenseApprovalModel ExpenseApprovalModel, int ExpenseStatus)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 SqlTransaction sql = con.BeginTransaction();
@@ -311,7 +311,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public DisplayViewModel GetExpenseAuditCountByAdminID(string AdminID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var param = new DynamicParameters();
                 param.Add("@AdminID", AdminID);
@@ -475,7 +475,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public DisplayViewModel GetExpenseAuditCountByUserID(string UserID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var param = new DynamicParameters();
                 param.Add("@UserID", UserID);
@@ -485,7 +485,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool UpdateExpenseAuditStatus(int ExpenseID, string Comment, int Status)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 SqlTransaction sql = con.BeginTransaction();

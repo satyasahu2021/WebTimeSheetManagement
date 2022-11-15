@@ -52,6 +52,7 @@
     <Compile Include="Expense.cs" />
     <Compile Include="ExpenseApprovalModel.cs" />
     <Compile Include="ExpenseModelView.cs" />
+    <Compile Include="GlobalConnectionString.cs" />
     <Compile Include="LoginViewModel.cs" />
     <Compile Include="NotificationsTB.cs" />
     <Compile Include="ProjectMaster.cs" />

@@ -3,10 +3,7 @@
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-WebTimeSheetManagement-20170822111306.mdf;Initial Catalog=aspnet-WebTimeSheetManagement-20170822111306;Integrated Security=True" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\POC\\source\\repos1\\WebTimeSheetManagement\\WebTimeSheetManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
-  <parameter name="TimesheetDBEntities-Web.config Connection String" description="TimesheetDBEntities Connection String used in web.config by the application to access the database." defaultValue="Data Source=vmdev19\SQLEXPRESS; initial catalog=TimesheetDB; user id=sa; password=Kolkata#01;" tags="SqlConnectionString">
+  <parameter name="TimesheetDBEntities-Web.config Connection String" description="TimesheetDBEntities Connection String used in web.config by the application to access the database." defaultValue="dummy" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\POC\\source\\repos1\\WebTimeSheetManagement\\WebTimeSheetManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TimesheetDBEntities']/@connectionString" />
-  </parameter>
-  <parameter name="elmah-sqlserver-Web.config Connection String" description="elmah-sqlserver Connection String used in web.config by the application to access the database." defaultValue="Data Source=vmdev19\SQLEXPRESS; initial catalog=TimesheetDB; user id=sa; password=Kolkata#01;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\POC\\source\\repos1\\WebTimeSheetManagement\\WebTimeSheetManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='elmah-sqlserver']/@connectionString" />
   </parameter>
 </parameters>

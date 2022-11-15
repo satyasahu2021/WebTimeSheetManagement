@@ -35,7 +35,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool UpdatePassword(string NewPassword, int UserID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 SqlTransaction sql = con.BeginTransaction();

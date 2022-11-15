@@ -11,7 +11,7 @@ namespace WebTimeSheetManagement.Concrete
     public partial class DatabaseContext : DbContext
     {
         public DatabaseContext()
-            : base("name=TimesheetDBEntities")
+            : base(GlobalConnectionString.connectionString)
         {
         }
 

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebTimeSheetManagement.Interface;
-
+using WebTimeSheetManagement.Models;
 namespace WebTimeSheetManagement.Concrete
 {
     public class ExpenseExportConcrete : IExpenseExport
@@ -16,7 +16,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetReportofExpense", con);
@@ -40,7 +40,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetAllReportofExpense", con);

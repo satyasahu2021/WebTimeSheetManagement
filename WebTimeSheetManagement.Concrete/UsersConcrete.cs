@@ -47,7 +47,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public RegistrationViewDetailsModel GetUserDetailsByRegistrationID(int? RegistrationID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -93,7 +93,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public RegistrationViewDetailsModel GetAdminDetailsByRegistrationID(int? RegistrationID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -140,7 +140,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetTotalAdminsCount()
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var Count = con.Query<int>("Usp_GetAdminCount", null, null, true, 0, System.Data.CommandType.StoredProcedure).FirstOrDefault();
                 if (Count > 0)
@@ -156,7 +156,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetTotalUsersCount()
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var Count = con.Query<int>("Usp_GetUsersCount", null, null, true, 0, System.Data.CommandType.StoredProcedure).FirstOrDefault();
                 if (Count > 0)
@@ -172,7 +172,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetUserIDbyTimesheetID(int TimeSheetMasterID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var para = new DynamicParameters();
                 para.Add("@TimeSheetMasterID", TimeSheetMasterID);
@@ -190,7 +190,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetUserIDbyExpenseID(int ExpenseID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var para = new DynamicParameters();
                 para.Add("@ExpenseID", ExpenseID);
@@ -208,7 +208,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetAdminIDbyUserID(int UserID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var para = new DynamicParameters();
                 para.Add("@UserID", UserID);

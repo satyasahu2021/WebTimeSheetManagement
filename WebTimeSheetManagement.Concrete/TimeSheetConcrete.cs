@@ -176,7 +176,7 @@ namespace WebTimeSheetManagement.Concrete
             try
             {
 
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     var param = new DynamicParameters();
                     param.Add("@TimeSheetID", TimeSheetMasterID);
@@ -253,7 +253,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public List<GetPeriods> GetPeriodsbyTimeSheetMasterID(int TimeSheetMasterID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -279,7 +279,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public List<GetProjectNames> GetProjectNamesbyTimeSheetMasterID(int TimeSheetMasterID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -305,7 +305,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool UpdateTimeSheetStatus(TimeSheetApproval timesheetapprovalmodel, int Status)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 SqlTransaction sql = con.BeginTransaction();
@@ -422,7 +422,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public DisplayViewModel GetTimeSheetsCountByAdminID(string AdminID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var param = new DynamicParameters();
                 param.Add("@AdminID", AdminID);
@@ -612,7 +612,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public DisplayViewModel GetTimeSheetsCountByUserID(string UserID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var param = new DynamicParameters();
                 param.Add("@UserID", UserID);
@@ -659,7 +659,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public bool UpdateTimeSheetAuditStatus(int TimeSheetID, string Comment, int Status)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 SqlTransaction sql = con.BeginTransaction();

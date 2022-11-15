@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "signalr1": {
+      "restored": true,
+      "restoreTime": "2022-11-15T11:08:12.8839046Z"
+    },
     "secrets1": {
       "restored": true,
       "restoreTime": "2022-11-10T12:02:12.267974Z"
@@ -10,6 +14,11 @@
     }
   },
   "parameters": {
+    "signalr1.resourceGroupName": {
+      "Name": "signalr1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-DevEnv19SignlR"
+    },
     "appInsights1.subscriptionId": {
       "Name": "appInsights1.subscriptionId",
       "Type": "subscription",
@@ -24,6 +33,11 @@
       "Name": "secrets1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "RG-DevEnv19Key"
+    },
+    "signalr1.subscriptionId": {
+      "Name": "signalr1.subscriptionId",
+      "Type": "subscription",
+      "Value": "eba63fd0-da8c-450a-89e2-302228f2f08d"
     },
     "secrets1.subscriptionId": {
       "Name": "secrets1.subscriptionId",

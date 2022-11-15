@@ -18,7 +18,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetReportofTimeSheet", con);
@@ -42,7 +42,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetWeekTimeSheetDetails", con);
@@ -77,7 +77,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetTimeSheetMasterIDTimeSheet", con);
@@ -101,7 +101,7 @@ namespace WebTimeSheetManagement.Concrete
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+                using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
                 {
                     DataSet ds = new DataSet();
                     SqlCommand cmd = new SqlCommand("Usp_GetTimeSheetbyFromDateandToDateTimeSheet", con);
@@ -123,7 +123,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public string GetUsernamebyRegistrationID(int RegistrationID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
 

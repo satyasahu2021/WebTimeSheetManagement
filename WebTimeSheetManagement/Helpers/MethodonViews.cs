@@ -13,7 +13,7 @@ namespace WebTimeSheetManagement.Helpers
     {
         public static List<GetHours> GetHoursbyTimeSheetMasterID(int TimeSheetMasterID, int ProjectID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try
@@ -40,7 +40,7 @@ namespace WebTimeSheetManagement.Helpers
 
         public static string GetDescriptionbyTimeSheetMasterID(int TimeSheetMasterID, int ProjectID)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 con.Open();
                 try

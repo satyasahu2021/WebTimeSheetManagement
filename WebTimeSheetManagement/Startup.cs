@@ -1,6 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
+
 [assembly: OwinStartupAttribute(typeof(WebTimeSheetManagement.Startup))]
 namespace WebTimeSheetManagement
 {
@@ -9,6 +10,8 @@ namespace WebTimeSheetManagement
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+          
+           
             app.MapSignalR();
         }
     }

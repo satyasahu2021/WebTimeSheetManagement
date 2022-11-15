@@ -201,7 +201,7 @@ namespace WebTimeSheetManagement.Concrete
 
         public int GetTotalProjectsCounts()
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["TimesheetDBEntities"].ToString()))
+            using (SqlConnection con = new SqlConnection(GlobalConnectionString.connectionString))
             {
                 var Count = con.Query<int>("Usp_GetProjectCount", null, null, true, 0, System.Data.CommandType.StoredProcedure).FirstOrDefault();
                 if (Count > 0)
